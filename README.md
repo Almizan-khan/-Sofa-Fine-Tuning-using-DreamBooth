@@ -58,6 +58,10 @@ Small concept datasets can overfit. This configuration does not enable prior-pre
 
 See [validation](VALIDATION.md), [original experiment](notebooks/original_experiment.ipynb) and [original description](docs/original-readme.md).
 
+## Recorded verification
+
+[The executed CI report](reports/verification.json) records five passing tests for image validation, duplicate detection, manifests, argument handling and evaluation-prompt validation. Model training and paired image evaluation still require the actual images and checkpoint.
+
 ## References
 
 - [Official DreamBooth training example](https://github.com/huggingface/diffusers/tree/v0.33.1/examples/dreambooth)
